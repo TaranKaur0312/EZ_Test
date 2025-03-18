@@ -1,6 +1,11 @@
 # React Project Name
 EZ_Test.
 
+
+## 🚀 Live Demo
+🔗 **[View Project Here](https://tarankaur0312.github.io/EZ_Test/)**
+
+
 ## 🛠️ Installation
 
 Clone the repository and install dependencies:
