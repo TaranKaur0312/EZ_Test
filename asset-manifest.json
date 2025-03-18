@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/EZ_Test/static/css/main.540b352f.css",
+    "main.js": "/EZ_Test/static/js/main.7efaafea.js",
+    "index.html": "/EZ_Test/index.html",
+    "main.540b352f.css.map": "/EZ_Test/static/css/main.540b352f.css.map",
+    "main.7efaafea.js.map": "/EZ_Test/static/js/main.7efaafea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.540b352f.css",
+    "static/js/main.7efaafea.js"
+  ]
+}
