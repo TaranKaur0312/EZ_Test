@@ -1,0 +1,134 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    background-color: #ffffffff;
+  }
+  
+  .left-section {
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .left-section h1 {
+    font-size: 6.5rem;
+    margin-bottom: 10px;
+    color: #3cc3f2ff;
+  }
+
+  .left-section .logo {
+    height: 10rem; 
+    vertical-align: middle; 
+    margin-bottom: 20px;
+  }  
+  
+  .left-section .subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .left-section .description {
+    margin-bottom: 30px;
+  }
+  
+.email-section {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .email-section input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .email-section button {
+    padding: 10px 20px;
+    background-color: #ea7d30ff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .email-section button :hover {
+        transform: translateY(5px) !important;
+        box-shadow: 0px 2px 0px #bf3a02;
+  }
+  
+  .email-section button :active {
+    transform: scale(0.95);
+  }
+
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .success-message {
+    color: green;
+    margin-top: 10px;
+  }
+  
+  .right-section {
+    width: 58%;
+    display: grid;
+    margin-top: 80px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .service-card {
+    padding: 20px;
+    width: 250px;
+    height: 200px;
+    background-color: #112949ff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-card img {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .service-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    font-size: 0.9rem;
+    color: aliceblue;
+  }
+
+  @media (max-width: 1024px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .left-section {
+      width: 100%;
+      text-align: center;
+    }
+
+    .right-section {
+      place-items: center;
+      width: 100%;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 426px) {
+    .right-section {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
